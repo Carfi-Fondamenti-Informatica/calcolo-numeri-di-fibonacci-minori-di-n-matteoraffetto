@@ -1,6 +1,18 @@
 #include <iostream>
 using namespace std;
-
 int main() {
-   return 0;
-}
+    int n = 0;
+    int a;
+    int b;
+    int c;
+    a = 0, b = 1, c = a + b;
+    cin >> n;
+    cout << "1" << endl;
+        for (int i = 3; i <= n; i++) {
+            cout << c << endl;
+            a = b;
+            b = c;
+            c = a + b;
+        }
+        return 0;
+    }
