@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int n = 0, a = 0, b = 1, c = a + b;
     cin >> n;
-    if (n <= n) {
+
         cout << "1" << endl;
         for (int i = 3; i <= n; i++) {
             cout << c << endl;
@@ -13,8 +13,6 @@ int main() {
         }
         return 0;
     }
-}
-
 
 
 
