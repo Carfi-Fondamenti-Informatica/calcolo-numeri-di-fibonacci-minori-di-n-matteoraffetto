@@ -1,20 +1,21 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n = 0, a = 0, b = 1, c = a + b;
+    int n = 0, a = 0, b = 1, c = 0;
     cin >> n ;
-    cout << a << endl;
-    cout << b << endl;
-    for (int i = 3; i<=n; i++) {
-
-            cout << c << endl;
+    cout << "1" << endl;
+    for (int i =0; i<=(n-2); i++) {
+            c = a+b;
             a = b;
             b = c;
-            c = a + b;
+            cout << c << endl;
         }
 
        return 0;
     }
+
+
+
 
 
 
