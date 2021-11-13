@@ -2,10 +2,9 @@
 using namespace std;
 int main() {
     int n = 0;
-    int a;
-    int b;
-    int c;
-    a = 0, b = 1, c = a + b;
+    int a=0;
+    int b = 1;
+    int c = a+b;
     cin >> n;
     cout << "1" << endl;
         for (int i = 3; i <= n; i++) {
