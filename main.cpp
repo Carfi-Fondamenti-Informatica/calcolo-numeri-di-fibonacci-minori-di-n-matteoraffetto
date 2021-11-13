@@ -1,10 +1,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int n = 0;
-    int a=0;
-    int b = 1;
-    int c = a+b;
+    int n = 0,a=0,b = 1,c = a+b;
     cin >> n;
     cout << "1" << endl;
         for (int i = 3; i <= n; i++) {
@@ -15,3 +12,6 @@ int main() {
         }
         return 0;
     }
+
+
+
